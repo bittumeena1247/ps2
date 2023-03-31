@@ -1,0 +1,53 @@
+.NavMain{
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 4;
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito';
+    font-size: 1rem;
+    justify-content: right;
+    background-color:#9b1860;
+    /* opacity: 1; */
+}
+.NavPadding{
+    padding: 0vh 4vw;
+    width: fit-content;
+}
+.NavPadding :hover{
+    cursor: pointer;
+    color: #fc0077;
+}
+.NavSignIn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #3e4474; */
+    margin: 0vh 1vw;
+    height: 8vh;
+    width: 10vw;
+    border-radius: 1vh;
+}
+
+.NavSignInh2{
+    margin: 0;
+}
+.navLink{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.NavDash{
+    font-size: 1.6rem;    font-weight: 700;
+    cursor: pointer;
+    color: white;
+
+}
+.NavDash:hover{
+cursor: pointer;
+}
+ 
